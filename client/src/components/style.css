@@ -1,0 +1,404 @@
+.formOuterContainer {
+  display: flex;
+  max-width: 290px;
+  border-top: 2px solid #006AFF;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  height: 745px;
+}
+
+.formInnerContainer { 
+  display: fixed;
+  max-width: 278px;
+  max-height: 746px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.formHeaderContainer {
+  font-weight: 700;
+  padding: 5px 0px;
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+  font-size: 13px;
+}
+
+.formInnerUpperContainer {
+  height: 370px;
+}
+
+.formInputName {
+  background:url('https://i.ibb.co/8rr2Mz4/person.jpg');
+  background-repeat:no-repeat;
+  background-position:6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #A7A6AB;
+  padding-left: 25px;
+  width: 238px;
+  height: 25px;
+}
+
+.formInputTel {
+  background:url('https://i.ibb.co/tJ7sxbM/phone.jpg');
+  background-repeat:no-repeat;
+  background-position:6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #A7A6AB;
+  padding-left: 25px;
+  width: 238px;
+  height: 25px;
+}
+
+.formInputEmail {
+  background:url('https://i.ibb.co/3BHkgkc/email.jpg');
+  background-repeat:no-repeat;
+  background-position:6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #A7A6AB;
+  padding-left: 25px;
+  width: 238px;
+  height: 25px;
+}
+
+.formInputInterest {
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 6px;
+  border: 1px solid #A7A6AB;
+  width: 252px;
+  padding-bottom: 25px;
+  word-wrap: break-word;
+}
+
+.formContactButton {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 265px;
+  height: 40px;
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  background-color: #006AFF;
+  color: #fff;
+  border-radius: 5px;
+} 
+
+.formContactButton:hover {
+  cursor: pointer;
+  background-color: #044db3;
+}
+
+.formLabelCheckbox {
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+  width: 228px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.formContainerP {
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #54545A;
+}
+
+.formTerms {
+  color: #006AFF;
+}
+
+.formTerms:hover {
+  cursor: pointer;
+  color: #6198F1;
+}
+
+/* INPUT COMPONENT EDITS */
+input[type=text]:focus {
+  box-shadow: 0 0 3pt 2pt #006AFF;
+}
+
+input[type=text]:hover {
+  cursor: auto;
+  border: 1px solid #006AFF;
+}
+
+input[type="checkbox"]:hover {
+  color: #006AFF;
+}
+
+/* PARENT LEVEL COMPONENT */
+.formInnerLowerContainer {
+  padding-top: 15px;
+  height: 335px;
+  border-top: 1px solid #54545A;
+  width: 270px;
+}
+/* BOTTOM TEXT */
+.formInnerLowerContainerP {
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+  font-size: 12.5px;
+  color: #006AFF;
+  margin-top: -1px;
+}
+
+.formInnerLowerContainerP:hover {
+  cursor: pointer;
+  color: #6198F1;
+}
+
+/* CHILD LEVEL GRID COMPONENT - DIVIDED BY EACH COMPONENT */
+
+/* COMPONENT 0 */
+#formAgentContainer0 {
+  grid-column: 1 / 5;
+  grid-row: 1 / 6;
+  display: grid;
+  grid-template-columns: 10px 60px 160px 40px;
+  grid-template-rows: 15px 20px 15px 15px 10px
+}
+
+#formAgentImage0 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#formAgentName0 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+#formAgentStars0 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#formAgentRatings0 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#formAgentSales0 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+#formAgentPhone0 {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+}
+
+#formAgentType0 {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+/* COMPONENT 1 */
+#formAgentContainer1 {
+  grid-column: 1 / 5;
+  grid-row: 1 / 6;
+  display: grid;
+  grid-template-columns: 10px 60px 160px 40px;
+  grid-template-rows: 15px 20px 15px 15px 10px
+}
+
+#formAgentImage1 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#formAgentName1 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+#formAgentStars1 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#formAgentRatings1 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#formAgentSales1 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+#formAgentPhone1 {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+}
+
+#formAgentType1 {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+/* COMPONENT 2 */
+#formAgentContainer2 {
+  grid-column: 1 / 5;
+  grid-row: 1 / 6;
+  display: grid;
+  grid-template-columns: 10px 60px 160px 40px;
+  grid-template-rows: 15px 20px 15px 15px 10px
+}
+
+#formAgentImage2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#formAgentName2 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+#formAgentStars2 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#formAgentRatings2 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#formAgentSales2 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+#formAgentPhone2 {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+}
+
+#formAgentType2 {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+/* COMPONENT 3 */
+#formAgentContainer3 {
+  grid-column: 1 / 5;
+  grid-row: 1 / 6;
+  display: grid;
+  grid-template-columns: 10px 60px 160px 40px;
+  grid-template-rows: 15px 20px 15px 15px 10px
+}
+
+#formAgentImage3 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#formAgentName3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+#formAgentStars3 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#formAgentRatings3 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#formAgentSales3 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+#formAgentPhone3 {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+}
+
+#formAgentType3 {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+/* GENERIC STYLING FOR CLASSES */
+.formAgentImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.formAgentName {
+  white-space: nowrap;
+  color: #0e6fff;
+  width: 60px;
+  max-height: 15px;
+  align-content: left;
+  font-size: 14px;
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+}
+
+.formAgentName:hover {
+  cursor: pointer;
+  color: #6198F1;
+}
+
+.formAgentSales {
+  white-space: nowrap;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  padding: 1px;
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+  font-size: 10.5px;
+  background-color: #1b5098;
+  border-radius: 2px;
+  color: white;
+  max-width: 18px;
+  text-indent: 2px;
+}
+
+.formAgentSalesP {
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+  display: inline;
+  white-space: nowrap;
+  margin-left: 9px;
+  font-size: 11px;
+  font-weight: 300;
+  background-color: white;
+  border-radius: 2px;
+  color: black;
+}
+
+.formAgentPhone {
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+  font-size: 11px;
+}
+
+.formAgentType {
+  border: 1px solid #afafaf;
+  color: #afafaf;
+  width: 35px;
+  height: 20px;
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+  font-size: 8px;
+  text-align: center;
+  padding: 2px;
+}
+
+.formAgentRatings {
+  text-align: center;
+  color: #0e6fff;
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+  font-size: 13px;
+}
+
+.formAgentStars {
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif;
+  font-size: 13px;
+}
