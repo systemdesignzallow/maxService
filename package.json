@@ -24,7 +24,7 @@
     "fs": "0.0.1-security",
     "mongoose": "^5.4.20",
     "mongoose-simple-random": "^0.4.1",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.1",
     "nodemon": "^1.18.10",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
