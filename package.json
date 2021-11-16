@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.0",
-    "aws-sdk": "^2.436.0",
+    "aws-sdk": "^2.814.0",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "css-loader": "^2.1.1",
